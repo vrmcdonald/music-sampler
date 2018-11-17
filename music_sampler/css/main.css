@@ -1,0 +1,48 @@
+header {
+    background: #9F55CE;
+    color: #fff;
+    font-size: 22px;
+    line-height: 1.5em;
+    text-align: center;
+    padding: 0.5em;
+}
+
+h1, h2 {
+    font-family: 'Pridi', 'Rockwell', 'Palatino', serif;
+    font-weight: normal;
+}
+
+body {
+    font-family: 'Karla', 'Futura', 'Century Gothic', sans-serif;
+    background: #2E1240;
+    color: #fff;
+    margin: 2em 5em 2em 5em;
+    font-size: 22px;
+    line-height: 1.25em;
+}
+
+footer {
+    background: #9F55CE;
+    color: #fff;
+    font-size: 15px;
+    text-align: center;
+}
+
+a {
+  color: #FFFF00;
+}
+
+a:hover {
+  color: #E0FFE0;
+}
+
+@media screen and (max-width: 1000px) {
+    #container {
+      width: 100%;
+    }
+}
+@media screen and (max-width: 750px) {
+    body {
+      margin: 1rem;
+    }
+}
